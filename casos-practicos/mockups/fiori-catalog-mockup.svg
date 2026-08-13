@@ -1,0 +1,52 @@
+<svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="420" fill="#f5f6f7"/>
+  <rect x="0" y="0" width="900" height="48" fill="#354a5f"/>
+  <text x="16" y="30" fill="#ffffff" font-size="16">Manage Launchpad Pages (Mockup ilustrativo)</text>
+
+  <text x="16" y="76" fill="#556" font-size="13">Page Content — ZFC_EXAMPLE_ROLE_TEMPLATE</text>
+  <text x="16" y="96" fill="#889" font-size="12">Sección: Ejemplo genérico</text>
+
+  <!-- tiles -->
+  <g>
+    <rect x="16" y="116" width="150" height="110" rx="4" fill="#33475d"/>
+    <text x="30" y="200" fill="#dfe6ec" font-size="12">Display Condition</text>
+    <text x="30" y="216" fill="#9fb3c4" font-size="11">V999</text>
+  </g>
+  <g>
+    <rect x="182" y="116" width="150" height="110" rx="4" fill="#33475d"/>
+    <text x="196" y="200" fill="#dfe6ec" font-size="12">Manage Prices</text>
+    <text x="196" y="216" fill="#9fb3c4" font-size="11">F9999</text>
+  </g>
+  <g>
+    <rect x="348" y="116" width="150" height="110" rx="4" fill="#33475d"/>
+    <text x="362" y="200" fill="#dfe6ec" font-size="12">Post Document</text>
+    <text x="362" y="216" fill="#9fb3c4" font-size="11">F999</text>
+  </g>
+  <g>
+    <rect x="514" y="116" width="150" height="110" rx="4" fill="#33475d" opacity="0.55" stroke="#0a66c2" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="528" y="200" fill="#dfe6ec" font-size="12">Nueva Tile</text>
+    <text x="528" y="216" fill="#9fb3c4" font-size="11">Z999</text>
+    <text x="528" y="150" fill="#7fc4ff" font-size="11">+ agregada</text>
+  </g>
+
+  <line x1="16" y1="256" x2="884" y2="256" stroke="#dfe3e7" stroke-width="1"/>
+
+  <text x="16" y="284" fill="#556" font-size="13">Catálogo asociado: ZFC_EXAMPLE_ROLE_TEMPLATE</text>
+  <rect x="16" y="300" width="868" height="90" fill="#ffffff" stroke="#dfe3e7"/>
+  <text x="30" y="322" fill="#889" font-size="11">Semantic Object</text>
+  <text x="200" y="322" fill="#889" font-size="11">Action</text>
+  <text x="380" y="322" fill="#889" font-size="11">Title</text>
+  <text x="620" y="322" fill="#889" font-size="11">Transaction</text>
+  <line x1="16" y1="330" x2="884" y2="330" stroke="#eef1f3" stroke-width="1"/>
+  <text x="30" y="352" fill="#334" font-size="11">ExampleObject</text>
+  <text x="200" y="352" fill="#334" font-size="11">display</text>
+  <text x="380" y="352" fill="#334" font-size="11">Nueva Tile — genérico</text>
+  <text x="620" y="352" fill="#334" font-size="11">Z999</text>
+  <line x1="16" y1="360" x2="884" y2="360" stroke="#eef1f3" stroke-width="1"/>
+  <text x="30" y="380" fill="#889" font-size="11">ManagePrice</text>
+  <text x="200" y="380" fill="#889" font-size="11">manage</text>
+  <text x="380" y="380" fill="#889" font-size="11">Manage Prices — genérico</text>
+  <text x="620" y="380" fill="#889" font-size="11">F9999</text>
+
+  <text x="16" y="412" fill="#98a0a6" font-size="11" font-style="italic">Todos los identificadores (catálogo, tiles, tcodes) son ficticios — mockup ilustrativo, no una captura real.</text>
+</svg>

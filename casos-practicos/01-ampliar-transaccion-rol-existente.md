@@ -19,8 +19,16 @@ El rol maestro no incluía la transacción requerida en su menú, y por lo tanto
 ## Solución
 
 1. **PFCG (rol maestro)**: se incluyó la transacción en el menú, se ajustaron los objetos de autorización que el generador propuso por default (revisando que no quedaran valores más amplios de lo necesario), se generó el perfil y se validó el semáforo en verde (perfil consistente, sin campos abiertos pendientes).
+
+   ![Mockup ilustrativo de PFCG](mockups/pfcg-mockup.svg)
+
 2. **Fiori**: se actualizó el catálogo asociado para incluir el tile correspondiente a la nueva transacción, y se revisó que apareciera correctamente en el Space/Page del rol.
+
+   ![Mockup ilustrativo de catálogo Fiori](mockups/fiori-catalog-mockup.svg)
+
 3. **ChaRM**: se creó la orden de cambio, se le asignaron las modificaciones de PFCG y catálogo, se transportó a través de los ambientes (Desarrollo → Calidad → Producción), y se confirmó la importación en todos los sistemas relevantes.
+
+   ![Mockup ilustrativo de flujo ChaRM](mockups/charm-mockup.svg)
 4. **Cierre**: se solicitó validación funcional al negocio una vez confirmada la importación en Productivo — no se cierra el ticket solo con "el transporte llegó", sino con confirmación de que el usuario final puede hacer lo que pidió.
 
 ## Lección / lo que se generalizó

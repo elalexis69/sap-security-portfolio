@@ -20,6 +20,9 @@ Un proceso de negocio (aprobación de Solicitudes de Compra o de facturas) no pu
 ## Solución
 
 1. **SU01**: asignación directa de los roles de aprobación correspondientes al usuario que cubre o reemplaza, sin generar rol nuevo (los roles ya existían, solo cambia a quién están asignados).
+
+   ![Mockup ilustrativo de SU01](mockups/su01-mockup.svg)
+
 2. Para cobertura temporal: asignación con fecha de inicio y fin definidas en la propia asignación de rol (no un rol permanente que hay que acordarse de remover manualmente).
 3. Validación de que la asignación quedó correctamente reflejada en el ambiente productivo y que el usuario puede acceder al Launchpad/transacciones esperadas.
 4. Notificación a las partes involucradas (usuario, y en el caso de reemplazo, el equipo funcional) de que el acceso ya está activo.

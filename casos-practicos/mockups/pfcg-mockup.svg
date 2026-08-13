@@ -1,0 +1,58 @@
+<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace">
+  <rect width="900" height="520" fill="#0f2b1d"/>
+  <rect x="0" y="0" width="900" height="34" fill="#1c4530"/>
+  <text x="16" y="22" fill="#d7e9dc" font-size="14">Role Maint. — PFCG (Mockup ilustrativo, sin datos reales)</text>
+
+  <text x="16" y="60" fill="#9fd9b4" font-size="13">Role</text>
+  <text x="90" y="60" fill="#eaf7ee" font-size="13">Z:M:EXAMPLE_ROLE_TEMPLATE</text>
+  <text x="16" y="80" fill="#9fd9b4" font-size="13">Maint.</text>
+  <text x="90" y="80" fill="#eaf7ee" font-size="13">2 unmaint. org. levels, 1 open field</text>
+  <text x="16" y="100" fill="#9fd9b4" font-size="13">Data Status</text>
+  <text x="140" y="100" fill="#f4c451" font-size="13">Changed</text>
+  <text x="16" y="120" fill="#9fd9b4" font-size="13">Profile Status</text>
+  <text x="140" y="120" fill="#7fe08a" font-size="13">Authorization profile is current ✓</text>
+
+  <line x1="16" y1="140" x2="884" y2="140" stroke="#2f5f42" stroke-width="1"/>
+
+  <!-- Tree header -->
+  <text x="16" y="165" fill="#c9e7d3" font-size="12">Group/Object/Authorization/Field</text>
+  <text x="500" y="165" fill="#c9e7d3" font-size="12">Maintenance Status</text>
+  <text x="660" y="165" fill="#c9e7d3" font-size="12">Value</text>
+  <text x="780" y="165" fill="#c9e7d3" font-size="12">Text</text>
+  <line x1="16" y1="174" x2="884" y2="174" stroke="#2f5f42" stroke-width="1"/>
+
+  <!-- Row: object class -->
+  <rect x="16" y="184" width="868" height="22" fill="#173c27"/>
+  <text x="24" y="199" fill="#eaf7ee" font-size="12">▾ Object class FI — Financial Accounting</text>
+  <text x="500" y="199" fill="#f4c451" font-size="12">Changed</text>
+
+  <!-- Row: auth object -->
+  <text x="40" y="222" fill="#dff0e4" font-size="12">▾ 🔒 Authorization Object F_BKPF_BUK</text>
+  <text x="500" y="222" fill="#9fd9b4" font-size="12">Standard</text>
+
+  <text x="64" y="245" fill="#c9e7d3" font-size="12">Authorizat. 00</text>
+  <text x="500" y="245" fill="#9fd9b4" font-size="12">Standard</text>
+
+  <text x="88" y="268" fill="#c9e7d3" font-size="12">🟢 BUKRS ($BUKRS)</text>
+  <text x="660" y="268" fill="#eaf7ee" font-size="12">9999</text>
+  <text x="780" y="268" fill="#8fb99c" font-size="12">Company Code</text>
+
+  <text x="88" y="291" fill="#c9e7d3" font-size="12">◆ ACTVT</text>
+  <text x="660" y="291" fill="#eaf7ee" font-size="12">03</text>
+  <text x="780" y="291" fill="#8fb99c" font-size="12">Activity (Display)</text>
+
+  <!-- second object -->
+  <rect x="16" y="310" width="868" height="22" fill="#173c27"/>
+  <text x="24" y="325" fill="#eaf7ee" font-size="12">▾ Object class BC_A — Basis: Administration</text>
+  <text x="500" y="325" fill="#f4c451" font-size="12">Changed</text>
+
+  <text x="40" y="348" fill="#dff0e4" font-size="12">▾ 🔒 Authorization Object S_TCODE</text>
+  <text x="500" y="348" fill="#9fd9b4" font-size="12">Standard</text>
+  <text x="88" y="371" fill="#c9e7d3" font-size="12">◆ TCD</text>
+  <text x="660" y="371" fill="#eaf7ee" font-size="12">Z999</text>
+  <text x="780" y="371" fill="#8fb99c" font-size="12">Transaction Code</text>
+
+  <line x1="16" y1="400" x2="884" y2="400" stroke="#2f5f42" stroke-width="1"/>
+  <text x="16" y="424" fill="#7fe08a" font-size="13">✓ Generate profile — status consistent, no open fields pending</text>
+  <text x="16" y="480" fill="#5c8a6d" font-size="11" font-style="italic">Todos los identificadores (rol, sociedad, transacción) son ficticios — mockup ilustrativo del proceso, no una captura real.</text>
+</svg>

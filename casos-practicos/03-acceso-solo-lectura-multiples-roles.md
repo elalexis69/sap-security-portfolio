@@ -17,8 +17,16 @@ Los usuarios necesitaban visibilidad sobre información de precios para su anál
 ## Solución
 
 1. **ChaRM**: se creó la orden de cambio y se avanzó a través de los ambientes correspondientes.
+
+   ![Mockup ilustrativo de flujo ChaRM](mockups/charm-mockup.svg)
+
 2. **Fiori**: se actualizaron/crearon los catálogos de ambos roles, agregando los tiles de las transacciones nuevas, y se validó que aparecieran correctamente en el Space y Page de cada rol.
+
+   ![Mockup ilustrativo de catálogo Fiori](mockups/fiori-catalog-mockup.svg)
+
 3. **PFCG**: en ambos roles maestro se incluyeron las transacciones, se ajustaron los objetos de autorización dejando explícitamente solo el valor de actividad de visualización (no creación/edición), y se generaron los perfiles con validación de estado consistente ("semáforo verde").
+
+   ![Mockup ilustrativo de PFCG](mockups/pfcg-mockup.svg)
 4. Se repitió el mismo tratamiento en los roles derivados heredados (por país), confirmando que el acceso quedara igual de restringido a solo-lectura en cada uno.
 5. Transporte hasta el ambiente correspondiente, con la orden y roles asignados a la tarea de ChaRM.
 
