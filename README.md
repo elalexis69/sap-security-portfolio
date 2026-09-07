@@ -18,7 +18,8 @@ Repositorio personal donde documento mi experiencia trabajando en **SAP Authoriz
 | [`02-charm-proceso.md`](02-charm-proceso.md) | Proceso end-to-end real: Jira → catálogo → CHARM → testing → deployment |
 | [`03-basis-monitoreo.md`](03-basis-monitoreo.md) | Lo que sé de BASIS (nivel monitoreo) y lo que me falta para subir de nivel |
 | [`04-glosario.md`](04-glosario.md) | Glosario de términos, útil como repaso rápido para el examen |
-| [`casos-practicos/`](casos-practicos/) | Casos reales anonimizados (problema → diagnóstico → solución → lección) |
+| [`05-patrones-recurrentes.md`](05-patrones-recurrentes.md) | Síntesis: los 8 patrones que se repiten entre los 11 casos documentados |
+| [`casos-practicos/`](casos-practicos/) | 11 casos reales anonimizados (problema → diagnóstico → solución → lección) |
 | [`recursos/plan-estudio-c_sec.md`](recursos/plan-estudio-c_sec.md) | Plan de estudio y datos actualizados de la certificación C_SEC |
 
 ## Nivel actual (autoevaluación honesta)
