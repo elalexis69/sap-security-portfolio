@@ -1,0 +1,35 @@
+<svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace">
+  <rect width="900" height="380" fill="#0f2b1d"/>
+  <rect x="0" y="0" width="900" height="34" fill="#1c4530"/>
+  <text x="16" y="22" fill="#d7e9dc" font-size="14">SUIM — User Information System (Mockup ilustrativo, sin datos reales)</text>
+
+  <text x="16" y="60" fill="#9fd9b4" font-size="13">Roles by Transaction Assignment in Menu</text>
+  <text x="16" y="80" fill="#eaf7ee" font-size="12">Transaction Code:  Z999</text>
+
+  <line x1="16" y1="96" x2="884" y2="96" stroke="#2f5f42" stroke-width="1"/>
+  <text x="24" y="118" fill="#c9e7d3" font-size="11">Role</text>
+  <text x="300" y="118" fill="#c9e7d3" font-size="11">Type</text>
+  <text x="420" y="118" fill="#c9e7d3" font-size="11">Area</text>
+  <line x1="16" y1="126" x2="884" y2="126" stroke="#2f5f42" stroke-width="1"/>
+
+  <rect x="16" y="134" width="868" height="22" fill="#173c27"/>
+  <text x="24" y="149" fill="#8fb99c" font-size="11">SAP_STANDARD_ROLE_EXAMPLE_01</text>
+  <text x="300" y="149" fill="#8fb99c" font-size="11">SAP estándar</text>
+  <text x="420" y="149" fill="#8fb99c" font-size="11">Genérico (muy amplio)</text>
+
+  <text x="24" y="180" fill="#8fb99c" font-size="11">SAP_STANDARD_ROLE_EXAMPLE_02</text>
+  <text x="300" y="180" fill="#8fb99c" font-size="11">SAP estándar</text>
+  <text x="420" y="180" fill="#8fb99c" font-size="11">Genérico (muy amplio)</text>
+
+  <rect x="16" y="200" width="868" height="24" fill="#204a30" stroke="#7fe08a" stroke-width="1.5"/>
+  <text x="24" y="217" fill="#eaf7ee" font-size="11">ZS:M:EXAMPLE_ROLE_INVOICE_ANLST</text>
+  <text x="300" y="217" fill="#eaf7ee" font-size="11">Single Role (Z)</text>
+  <text x="420" y="217" fill="#7fe08a" font-size="11">Específico del proceso ✓ seleccionado</text>
+
+  <line x1="16" y1="240" x2="884" y2="240" stroke="#2f5f42" stroke-width="1"/>
+  <text x="16" y="264" fill="#9fd9b4" font-size="12">Criterio de selección:</text>
+  <text x="16" y="286" fill="#c9e7d3" font-size="11">✓ Rol Z de negocio, específico del área — no rol SAP estándar de alcance amplio</text>
+  <text x="16" y="306" fill="#c9e7d3" font-size="11">✓ Single Role orientado al proceso puntual requerido</text>
+
+  <text x="16" y="356" fill="#5c8a6d" font-size="11" font-style="italic">Nombres de rol y transacción ficticios — mockup ilustrativo del proceso, no una captura real.</text>
+</svg>
