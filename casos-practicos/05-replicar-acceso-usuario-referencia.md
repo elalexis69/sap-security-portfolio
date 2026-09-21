@@ -1,5 +1,7 @@
 # Caso 5 — Restablecer acceso replicando roles de un usuario de referencia
 
+> Caso adaptado con fines educativos. Los pasos deben validarse según la configuración y los controles del entorno; no constituyen un procedimiento de una organización.
+
 ## Contexto
 
 Tras una actualización del sistema, un usuario perdió el acceso a un conjunto de aplicaciones Fiori que normalmente usaba (en este caso, herramientas de integración con SAP Business Objects for Office). Se solicitó restablecerle el acceso "igual al de un compañero que sí lo tiene" — un patrón habitual cuando dos personas ocupan un rol de negocio equivalente.

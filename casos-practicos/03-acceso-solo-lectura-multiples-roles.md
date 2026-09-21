@@ -1,8 +1,10 @@
 # Caso 3 — Otorgar acceso de solo lectura a varias transacciones, en varios roles a la vez
 
+> Caso adaptado con fines educativos. Los pasos deben validarse según la configuración y los controles del entorno; no constituyen un procedimiento de una organización.
+
 ## Contexto
 
-Solicitud para que dos perfiles funcionales distintos (planificación de demanda y liderazgo de planificación comercial) pudieran **visualizar** información de precios y condiciones — sin poder crearlas ni modificarlas. El requerimiento impactaba dos roles maestro (cada uno con sus propios derivados por país) al mismo tiempo.
+Solicitud para que dos perfiles funcionales distintos (perfil de consulta A y perfil de consulta B) pudieran **visualizar** información de precios y condiciones — sin poder crearlas ni modificarlas. El requerimiento impactaba dos roles maestro (cada uno con sus propios derivados por país) al mismo tiempo.
 
 ## Problema
 
