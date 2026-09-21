@@ -1,7 +1,7 @@
 <svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
   <rect width="900" height="260" fill="#ffffff"/>
   <rect x="0" y="0" width="900" height="40" fill="#eef2f6"/>
-  <text x="16" y="26" fill="#334" font-size="14">EBP Normal Change: 6000000999 — Ejemplo genérico (Mockup ilustrativo)</text>
+  <text x="16" y="26" fill="#334" font-size="14">ChaRM — Cambio de ejemplo: DEMO-001 — Ejemplo genérico (Mockup ilustrativo)</text>
 
   <text x="16" y="66" fill="#889" font-size="12">Status Overview</text>
 

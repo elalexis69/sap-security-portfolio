@@ -1,5 +1,7 @@
 # Caso 4 — Asignar un Firefighter ID temporal a un usuario
 
+> Caso adaptado con fines educativos. Los pasos deben validarse según la configuración y los controles del entorno; no constituyen un procedimiento de una organización.
+
 ## Contexto
 
 Solicitud vía catálogo de servicio para otorgar acceso de emergencia (Firefighter) a un usuario que necesitaba ejecutar tareas puntuales fuera de su acceso estándar, por un período acotado y con justificación de negocio explícita.
@@ -12,7 +14,7 @@ El usuario no tenía, ni debía tener de forma permanente, el nivel de acceso re
 
 1. Se identificó cuál **Firefighter ID** del catálogo correspondía al alcance necesitado. No es un acceso "genérico a todo": cada Firefighter ID está predefinido para un dominio/módulo específico (en este caso, Finanzas), así que elegir el correcto — no el más amplio disponible — es parte del trabajo.
 2. Se confirmó la ventana de tiempo solicitada (Valid from / Valid to). El acceso Firefighter siempre debe tener vigencia acotada, nunca indefinida.
-3. Se verificó qué auditor(es) estaban configurados para ese Firefighter ID (AuditorID 1 obligatorio, AuditorID 2 opcional según el alcance) — son quienes deben revisar el log de uso una vez que el acceso se haya utilizado.
+3. Se verificó qué auditor(es) estaban configurados para ese Firefighter ID (responsables de revisión definidos según la implementación) — son quienes deben revisar el log de uso una vez que el acceso se haya utilizado.
 
 ## Solución
 

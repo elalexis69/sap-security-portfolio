@@ -1,5 +1,7 @@
 # Caso 1 — Agregar una transacción a un rol maestro ya existente
 
+> Caso adaptado con fines educativos. Los pasos deben validarse según la configuración y los controles del entorno; no constituyen un procedimiento de una organización.
+
 ## Contexto
 
 Solicitud de negocio para que un rol funcional ya en uso (perfil tipo "Analista de Tesorería") pudiera ejecutar una transacción financiera adicional para hacer ajustes manuales puntuales, transacción que hasta ese momento no tenía habilitada.

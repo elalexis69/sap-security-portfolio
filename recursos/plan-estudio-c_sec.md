@@ -37,7 +37,7 @@ Valida exactamente el área en la que trabajo a diario: conceptos de autorizaci�
 
 ### Mes 2
 - [ ] Buscar simuladores/quiz de práctica para C_SEC.
-- [ ] Documentar 2-3 casos reales anonimizados en `casos-practicos/` — sirve para el examen práctico Y para entrevistas.
+- [ ] Documentar 2-3 ejemplos educativos sin información interna en `casos-practicos/` — sirve para el examen práctico Y para entrevistas.
 - [ ] Identificar temario oficial actualizado del examen (verificar en la página del producto en training.sap.com — el temario puede variar entre revisiones).
 
 ### Mes 3
@@ -46,4 +46,4 @@ Valida exactamente el área en la que trabajo a diario: conceptos de autorizaci�
 
 ## Nota sobre el examen práctico hands-on
 
-A diferencia de certificaciones SAP antiguas (solo teoría), este formato evalúa ejecución real en el sistema. Esto favorece directamente a quien ya trabaja el día a día en PFCG, CHARM y Firefighter — la preparación más valiosa no es memorizar, es seguir documentando casos reales.
+A diferencia de certificaciones SAP antiguas (solo teoría), este formato evalúa ejecución real en el sistema. Esto favorece directamente a quien ya trabaja el día a día en PFCG, CHARM y Firefighter — la preparación más valiosa no es memorizar, es practicar con ejemplos educativos.

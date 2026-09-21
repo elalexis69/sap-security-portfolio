@@ -1,5 +1,7 @@
 # Caso 7 — Encontrar el rol correcto cuando falta un T-Code
 
+> Caso adaptado con fines educativos. Los pasos deben validarse según la configuración y los controles del entorno; no constituyen un procedimiento de una organización.
+
 ## Contexto
 
 Un usuario reportó no poder ejecutar una transacción específica (en este caso, `MIRO`, verificación de facturas). Había que identificar qué rol otorgaba esa transacción y asignárselo — sin recurrir al primer rol que apareciera disponible.

@@ -1,31 +1,32 @@
-# SAP Authorization & Roles — Portafolio técnico
+# SAP Security — Portafolio de aprendizaje
 
-Repositorio personal donde documento mi experiencia trabajando en **SAP Authorization Management** (perfiles, roles, Firefighter/acceso de emergencia) dentro de un programa de implementación S/4HANA (EBP), rol operativo tipo LATAM.
+Apuntes personales y casos prácticos adaptados con fines educativos sobre **roles y autorizaciones en SAP**. El objetivo es compartir mi aprendizaje, mi razonamiento técnico y los criterios de control de accesos.
 
-> ⚠️ **Privado por diseño.** Este repo no contiene nombres de usuarios reales, nombres de roles de negocio específicos de ninguna empresa, ni estructuras exactas de autorización. Todo está genérico o anonimizado. Si en algún momento este repo deja de ser privado, revisa antes cada archivo.
+Proyecto personal e independiente, sin afiliación ni respaldo de una organización. Los ejemplos se presentan de forma general y los gráficos son mockups ilustrativos; no constituyen documentación oficial ni instrucciones para operar un entorno productivo.
 
-## Objetivo
+## Áreas de aprendizaje
 
-1. Consolidar en un solo lugar lo que sé de SAP Roles & Authorizations, para tenerlo listo en entrevistas o conversaciones de carrera.
-2. Servir de base de estudio para la certificación **SAP Certified Associate – Security Administrator (C_SEC)**.
-3. Quedar como evidencia de expertise real (no solo teoría) para negociar una escalada de rol.
+- Roles y perfiles: PFCG, roles simples, compuestos y derivados.
+- Diagnóstico de accesos: SU01, SUIM y análisis de autorizaciones.
+- Principio de mínimo privilegio y segregación de funciones.
+- Accesos de emergencia: Firefighter / EAM.
+- Gestión de cambios con ChaRM y conceptos de Fiori.
+- Monitoreo básico y límites de responsabilidad frente a administración BASIS.
 
 ## Contenido
 
-| Archivo | Qué es |
+| Recurso | Contenido |
 |---|---|
-| [`01-conceptos-autorizacion.md`](01-conceptos-autorizacion.md) | Teoría base: PFCG, tipos de roles, objetos de autorización, SoD, Firefighter/EAM |
-| [`02-charm-proceso.md`](02-charm-proceso.md) | Proceso end-to-end real: Jira → catálogo → CHARM → testing → deployment |
-| [`03-basis-monitoreo.md`](03-basis-monitoreo.md) | Lo que sé de BASIS (nivel monitoreo) y lo que me falta para subir de nivel |
-| [`04-glosario.md`](04-glosario.md) | Glosario de términos, útil como repaso rápido para el examen |
-| [`05-patrones-recurrentes.md`](05-patrones-recurrentes.md) | Síntesis: los 8 patrones que se repiten entre los 11 casos documentados |
-| [`casos-practicos/`](casos-practicos/) | 11 casos reales anonimizados (problema → diagnóstico → solución → lección) |
-| [`recursos/plan-estudio-c_sec.md`](recursos/plan-estudio-c_sec.md) | Plan de estudio y datos actualizados de la certificación C_SEC |
+| [Conceptos de autorización](01-conceptos-autorizacion.md) | Fundamentos de roles, objetos, campos y controles |
+| [Gestión de cambios](02-charm-proceso.md) | Ejemplo educativo de solicitud, aprobación, pruebas y transporte |
+| [Monitoreo BASIS](03-basis-monitoreo.md) | Alcance de aprendizaje y temas pendientes |
+| [Glosario](04-glosario.md) | Referencia de términos |
+| [Patrones recurrentes](05-patrones-recurrentes.md) | Principios comunes a los casos |
+| [Casos prácticos](casos-practicos/) | 11 casos adaptados: contexto, diagnóstico, solución y aprendizaje |
+| [Plan de estudio](recursos/plan-estudio-c_sec.md) | Organización del aprendizaje y consulta de fuentes oficiales |
 
-## Nivel actual (autoevaluación honesta)
+## Alcance
 
-- ✅ **Authorization & Roles**: sólido, trabajo operativo diario (creación de roles, asignación, Firefighter, CHARM).
-- ✅ **Proceso de cambio (CHARM)**: end-to-end, desde el ticket hasta el deploy.
-- 🟡 **BASIS**: solo monitoreo, no administración (falta transporte, instalación, tuning, etc. — detalle en `03-basis-monitoreo.md`).
-- 🔲 **GRC Access Control** (SoD automatizado, workflows de request): conocimiento teórico, sin experiencia hands-on todavía.
-- 🔲 **Certificación oficial**: en preparación (ver plan de estudio).
+Este portafolio documenta aprendizaje y no acredita una certificación. La configuración avanzada de GRC Access Control y la administración integral de BASIS son áreas de estudio, no competencias acreditadas por estos ejemplos.
+
+Para aportar nuevos contenidos, utiliza la [plantilla de casos](casos-practicos/00-plantilla.md). Publica explicaciones propias y ejemplos educativos; excluye tickets, capturas, identificadores y procedimientos internos de terceros.

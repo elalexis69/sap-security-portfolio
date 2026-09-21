@@ -15,11 +15,11 @@ Un usuario nunca tiene permisos "sueltos": siempre los recibe a través de **rol
 | Tipo | Qué es | Cuándo se usa |
 |---|---|---|
 | **Rol simple (single)** | Un solo rol con menú de transacciones + autorizaciones propias | Base de todo: un proceso o función concreta |
-| **Rol compuesto (composite)** | Agrupa varios roles simples | Perfil de usuario tipo "Comprador LATAM" = suma de roles simples |
+| **Rol compuesto (composite)** | Agrupa varios roles simples | Perfil de usuario tipo "Comprador regional" = suma de roles simples |
 | **Rol derivado (derived)** | Hereda el menú y autorizaciones de un rol maestro, pero permite valores distintos en campos organizacionales (org levels) | Mismo rol para distintos países/sociedades/centros, cambiando solo el org level |
 | **Rol maestro** | El rol "padre" del que cuelgan los derivados | Se usa cuando el mismo proceso se repite en varias unidades organizativas |
 
-**Por qué importan los roles derivados en un contexto multi-país (LATAM):** en vez de mantener N roles casi idénticos (uno por país/sociedad), se mantiene un rol maestro y N derivados que solo cambian el org level (sociedad, centro, área de ventas, etc.). Reduce el esfuerzo de mantenimiento y el riesgo de inconsistencias.
+**Por qué importan los roles derivados en un contexto multi-país:** en vez de mantener N roles casi idénticos (uno por país/sociedad), se mantiene un rol maestro y N derivados que solo cambian el org level (sociedad, centro, área de ventas, etc.). Reduce el esfuerzo de mantenimiento y el riesgo de inconsistencias.
 
 ## 3. PFCG — la transacción central
 
@@ -73,4 +73,4 @@ Esto resuelve un problema real: dar acceso amplio permanente es un riesgo de SoD
 - **Offboarding**: bloqueo de usuario + remoción de roles. Debe ser inmediato el día de salida, no "cuando alguien se acuerde".
 
 ---
-*Nivel de este documento: conocimiento aplicado a diario en operación (roles, PFCG, Firefighter, SoD básico). GRC Access Control automatizado: conocimiento teórico, sin configuración hands-on.*
+*Alcance educativo: roles, PFCG, Firefighter y SoD básico. La configuración avanzada de GRC Access Control queda fuera de este documento.*

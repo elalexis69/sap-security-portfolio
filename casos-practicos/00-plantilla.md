@@ -1,33 +1,27 @@
-# Plantilla de caso práctico
+# Plantilla de caso práctico educativo
 
-> Copia este archivo por cada caso real que documentes: `casos-practicos/01-nombre-corto.md`, `02-...`, etc.
-> **Anonimiza siempre**: sin nombres de usuarios reales, sin nombres exactos de roles de negocio de la empresa, sin datos que identifiquen a una persona o unidad específica. Usa descripciones genéricas ("un usuario del área de Compras", "rol de tipo analista regional").
+Crea un ejemplo general a partir del concepto aprendido. No copies tickets, conversaciones, documentos ni procedimientos internos.
 
-## Título del caso
+Antes de publicar, elimina nombres de empresas y proyectos, personas, correos, dominios, direcciones de red, sistemas, sociedades, roles internos e identificadores de tickets. Sustituye combinaciones de tareas o detalles que permitan reconocer un incidente. Utiliza únicamente mockups propios con datos ficticios; revisa también su texto y metadatos.
 
-Una línea que resuma el problema (ej: "Usuario con rol derivado correcto pero sin acceso — org level mal parametrizado").
+Describe con precisión si se trata de un ejercicio simulado o de un caso adaptado. No presentes una simulación como experiencia ejecutada ni un caso adaptado como garantía de anonimato.
 
-## Contexto
+## Contexto educativo
 
-- ¿Qué tipo de solicitud/incidente era?
-- ¿Cómo llegó (Jira, escalado directo, Firefighter, etc.)?
+¿Qué concepto ilustra el caso? Define un escenario general.
 
 ## Problema
 
-Qué reportaba el usuario o qué se detectó. Síntoma observable, no la causa todavía.
+Describe el síntoma sin reproducir un incidente identificable.
 
-## Diagnóstico
+## Diagnóstico propuesto
 
-Pasos que seguiste para identificar la causa real. Qué revisaste (SU01, PFCG, SUIM, logs, transporte, etc.) y qué encontraste en cada paso.
+¿Qué revisarías y con qué criterio?
 
-## Solución
+## Solución propuesta
 
-Qué se hizo para resolverlo. Si pasó por CHARM, en qué paso se corrigió.
+Explica el enfoque, las aprobaciones necesarias y sus límites. Evita describir configuraciones internas.
 
-## Lección / lo que se generalizó
+## Validación y aprendizaje
 
-¿Este caso reveló algo repetible? ¿Se convirtió en un checklist, una mejora al catálogo, una alerta para revisar en otros roles similares?
-
----
-
-*Casos documentados: (actualiza este contador a medida que agregues archivos)*
+¿Qué resultado se espera? ¿Cómo comprobarías tanto el acceso permitido como el acceso que debe continuar restringido?

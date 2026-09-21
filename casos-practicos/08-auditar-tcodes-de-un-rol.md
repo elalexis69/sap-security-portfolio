@@ -1,5 +1,7 @@
 # Caso 8 — Auditar qué transacciones otorga un rol (y comparar dos usuarios)
 
+> Caso adaptado con fines educativos. Los pasos deben validarse según la configuración y los controles del entorno; no constituyen un procedimiento de una organización.
+
 ## Contexto
 
 Se necesitaba comparar los accesos de dos usuarios para entender qué transacciones les otorgaban ciertos roles asignados — típico al investigar por qué dos personas con puestos similares tienen comportamiento distinto en el sistema, o al validar qué hace exactamente un rol antes de asignarlo a alguien más.

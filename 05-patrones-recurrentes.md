@@ -1,6 +1,6 @@
 # Patrones recurrentes — síntesis de los 11 casos documentados
 
-Este documento no repite lo que ya está en cada caso — junta lo que se repite **entre** ellos. Son los principios que uso en la práctica, no teoría copiada de un manual. Sirve para dos cosas: tenerlos a mano en una entrevista sin tener que releer los 11 casos, y como checklist rápido antes de tocar un rol.
+Síntesis educativa de los principios comunes a los 11 casos adaptados. Sirve como repaso de criterios de diagnóstico, alcance y validación, sin documentar controles de una organización concreta.
 
 ## 1. El cambio va en el rol maestro, nunca en el derivado
 
@@ -30,7 +30,7 @@ Antes de copiar los roles de un usuario de referencia: confirmar cuáles son exa
 
 Aparece en: [Caso 1](casos-practicos/01-ampliar-transaccion-rol-existente.md), [Caso 6](casos-practicos/06-error-grupo-usuario-cua.md), [Caso 10](casos-practicos/10-restringir-valor-de-campo-en-objeto.md), [Caso 11](casos-practicos/11-remover-acceso-rol-compartido.md).
 
-"¿Ya cubrí todos los países / todos los sistemas hijos?" tiene que preguntarse *antes* de cerrar el ticket, no después. En CUA, un grupo de usuario tiene que existir localmente en cada sistema hijo, y `SCUG` permite confirmar el universo completo en vez de ir descubriendo sistemas por accidente. En roles maestro/derivado, un cambio revisado dos veces (¿CL10?, ¿MX10?) es más barato que uno transportado a medias.
+"¿Ya cubrí todos los países / todos los sistemas hijos?" tiene que preguntarse *antes* de cerrar el ticket, no después. En CUA, un grupo de usuario tiene que existir localmente en cada sistema hijo, y `SCUG` permite confirmar el universo completo en vez de ir descubriendo sistemas por accidente. En roles maestro/derivado, un cambio revisado dos veces (¿unidad A?, ¿unidad B?) es más barato que uno transportado a medias.
 
 ## 6. Un ticket no está cerrado hasta la validación funcional real
 

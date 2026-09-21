@@ -1,5 +1,7 @@
 # Caso 2 — Reasignar roles de aprobación por ausencia o reemplazo de titular
 
+> Caso adaptado con fines educativos. Los pasos deben validarse según la configuración y los controles del entorno; no constituyen un procedimiento de una organización.
+
 ## Contexto
 
 Dos variantes del mismo patrón, resueltas con el mismo enfoque:

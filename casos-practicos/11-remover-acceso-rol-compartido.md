@@ -1,8 +1,10 @@
 # Caso 11 — Remover transacciones de un rol usado por varios perfiles
 
+> Caso adaptado con fines educativos. Los pasos deben validarse según la configuración y los controles del entorno; no constituyen un procedimiento de una organización.
+
 ## Contexto
 
-Un rol regional traía incluidas un par de transacciones que, en la práctica, solo debían estar disponibles para perfiles específicos (analista de inventario, gerente de contabilidad) — no para todos los perfiles que compartían ese rol. Se solicitó remover esas transacciones del rol en cuestión.
+Un rol regional traía incluidas un par de transacciones que, en la práctica, solo debían estar disponibles para perfiles específicos (perfil funcional A y perfil funcional B) — no para todos los perfiles que compartían ese rol. Se solicitó remover esas transacciones del rol en cuestión.
 
 ## Problema
 
@@ -17,7 +19,7 @@ A diferencia de agregar un acceso, remover uno tiene un riesgo distinto: si el r
 
 1. **Fiori**: se removieron las aplicaciones correspondientes del catálogo, del space y de la page, validando después que ya no quedaran visibles en el Launchpad.
 2. **PFCG (rol maestro)**: se removieron las transacciones del menú y se eliminaron los accesos asociados en los objetos de autorización correspondientes, se generó el perfil con herencia y se validó el estado consistente.
-3. **Multi-país**: al tratarse de un rol maestro con derivados por país, había que confirmar la actualización en **todos** los derivados relevantes — en este caso, durante la propia ejecución surgió la duda explícita de si faltaba replicar el ajuste en el derivado de otro país, lo que obligó a volver atrás y confirmarlo antes de dar por cerrado el cambio.
+3. **Multi-país**: al tratarse de un rol maestro con derivados por país, había que confirmar la actualización en **todos** los derivados relevantes — revisar la cobertura de cada unidad antes de dar por cerrado el cambio.
 4. Se transportó el cambio vía ChaRM hasta los ambientes correspondientes.
 
 ## Lección / lo que se generalizó

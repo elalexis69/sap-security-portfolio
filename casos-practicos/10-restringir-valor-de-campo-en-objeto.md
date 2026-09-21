@@ -1,5 +1,7 @@
 # Caso 10 — Restringir un acceso a un valor específico dentro de un objeto de autorización
 
+> Caso adaptado con fines educativos. Los pasos deben validarse según la configuración y los controles del entorno; no constituyen un procedimiento de una organización.
+
 ## Contexto
 
 Dos requerimientos distintos, mismo patrón: el negocio no pedía "dar acceso a una transacción" en términos generales, sino habilitar una transacción **solo para un subconjunto muy específico de datos**:

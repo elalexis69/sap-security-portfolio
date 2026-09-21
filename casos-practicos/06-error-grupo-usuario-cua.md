@@ -1,5 +1,7 @@
 # Caso 6 — Resolver "User group does not exist" en la distribución de CUA
 
+> Caso adaptado con fines educativos. Los pasos deben validarse según la configuración y los controles del entorno; no constituyen un procedimiento de una organización.
+
 ## Contexto
 
 En un paisaje SAP con **CUA (Central User Administration)** — un sistema central que administra usuarios y distribuye los cambios a varios sistemas "hijos" — un cambio de grupo de usuario hecho desde el sistema central no se estaba propagando a uno de los sistemas hijos.
